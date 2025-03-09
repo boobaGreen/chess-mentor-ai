@@ -60,12 +60,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const signInWithGithub = async () => {
     try {
       setError(null);
-      const redirectURL = import.meta.env.VITE_SITE_URL + "/auth/callback";
-
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "github",
         options: {
-          redirectTo: redirectURL,
+          redirectTo: `${import.meta.env.VITE_SITE_URL}/auth/callback`,
+          queryParams: {
+            redirect_to: import.meta.env.VITE_SITE_URL,
+          },
         },
       });
       if (error) throw error;
@@ -80,12 +81,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const signInWithGoogle = async () => {
     try {
       setError(null);
-      const redirectURL = import.meta.env.VITE_SITE_URL + "/auth/callback";
-
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: redirectURL,
+          redirectTo: `${import.meta.env.VITE_SITE_URL}/auth/callback`,
+          queryParams: {
+            redirect_to: import.meta.env.VITE_SITE_URL,
+          },
         },
       });
       if (error) throw error;
