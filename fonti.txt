@@ -1,0 +1,10 @@
+https://stockfishchess.org/download/
+
+"chess.js": "^1.1.0",
+"react-chessboard": "^4.7.2",
+
+
+- aggiunegre training sectuion dove ci sposto puzzle ed aggiungiamo i lesercizio per coordinate
+- nft page
+- aggiunegre possibilita' di muover i pezzi anche con 2 click partenza / destinazione non solo trascinandoli come ora
+
