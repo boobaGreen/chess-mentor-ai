@@ -156,7 +156,7 @@ const Header: React.FC = () => {
                     <DropdownMenuTrigger asChild>
                       <Button
                         variant="ghost"
-                        className="text-sm font-medium transition-colors hover:text-primary px-2 py-1 -mx-2"
+                        className="text-sm font-medium transition-colors hover:text-primary px-2 py-1 mx-2"
                       >
                         <div className="flex items-center gap-1">
                           {item.icon} {item.label}
@@ -188,7 +188,7 @@ const Header: React.FC = () => {
                     to={item.to || "#"}
                     className="text-sm font-medium transition-colors hover:text-primary"
                   >
-                    <div className="flex items-center gap-1">
+                    <div className="flex items-center gap-2">
                       {item.icon} {item.label}
                     </div>
                   </Link>

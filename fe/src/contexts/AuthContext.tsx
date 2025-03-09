@@ -59,10 +59,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   }, []);
 
   const getRedirectUrl = () => {
-    const isDevelopment = import.meta.env.MODE === "development";
-    return isDevelopment
-      ? "http://localhost:5173/auth/callback"
-      : "https://cs-mentor-ai.vercel.app/auth/callback";
+    return import.meta.env.VITE_SITE_URL as string;
   };
 
   const signInWithGithub = async () => {
