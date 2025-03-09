@@ -12,6 +12,7 @@ import FriendsPage from "../pages/FriendPage";
 import EventPage from "../pages/EventPage";
 import WatchPage from "../pages/WatchPage";
 import PuzzlePage from "../pages/PuzzlePage";
+import NftPage from "../pages/NftPage";
 import NotFoundPage from "../pages/NotFoundPage";
 
 const AppRouter: React.FC = () => {
@@ -49,6 +50,7 @@ const AppRouter: React.FC = () => {
         }
       />
       <Route path="/friends" element={<FriendsPage />} />
+      <Route path="/nft" element={<NftPage />} />
       <Route path="/events" element={<EventPage />} />
       <Route
         path="/tutor"
