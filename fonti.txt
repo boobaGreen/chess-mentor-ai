@@ -5,6 +5,5 @@ https://stockfishchess.org/download/
 
 
 - aggiunegre training sectuion dove ci sposto puzzle ed aggiungiamo i lesercizio per coordinate
-- nft page
 - aggiunegre possibilita' di muover i pezzi anche con 2 click partenza / destinazione non solo trascinandoli come ora
-
+- spostare logica stockfish su be ora e' su fe

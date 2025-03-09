@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
             Terms of Service
           </button>
           <a
-            href="https://github.com/boobaGreen/linkedinScammers"
+            href="https://github.com/boobaGreen/chess-mentor-ai"
             target="_blank"
             rel="noreferrer"
             className="rounded-md p-2 hover:bg-accent hover:text-accent-foreground"

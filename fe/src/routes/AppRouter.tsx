@@ -14,6 +14,7 @@ import WatchPage from "../pages/WatchPage";
 import PuzzlePage from "../pages/PuzzlePage";
 import NftPage from "../pages/NftPage";
 import NotFoundPage from "../pages/NotFoundPage";
+import SquaresPage from "../pages/SquaresPage";
 
 const AppRouter: React.FC = () => {
   return (
@@ -46,6 +47,14 @@ const AppRouter: React.FC = () => {
         element={
           <ProtectedRoute>
             <DashboardPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/squares"
+        element={
+          <ProtectedRoute>
+            <SquaresPage />
           </ProtectedRoute>
         }
       />

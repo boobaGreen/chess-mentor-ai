@@ -16,6 +16,7 @@ import {
   Users,
   UserPlus,
   ChevronDown,
+  Target,
   GraduationCap,
   Diamond, // Added Diamond icon for NFT
 } from "lucide-react";
@@ -68,23 +69,27 @@ const Header: React.FC = () => {
             icon: <List className="h-4 w-4" />,
             label: "Dashboard",
           },
-        ]
-      : []),
-
-    // Training dropdown menu - third position
-    {
-      type: "dropdown",
-      label: "Training",
-      icon: <GraduationCap className="h-4 w-4" />,
-      items: [
-        { to: "/partita", icon: <Play className="h-4 w-4" />, label: "Play" },
-        {
-          to: "/puzzle",
-          icon: <Puzzle className="h-4 w-4" />,
-          label: "Puzzle",
-        },
-        ...(user
-          ? [
+          // Training dropdown menu - third position, only shown when logged in
+          {
+            type: "dropdown",
+            label: "Training",
+            icon: <GraduationCap className="h-4 w-4" />,
+            items: [
+              {
+                to: "/partita",
+                icon: <Play className="h-4 w-4" />,
+                label: "Play",
+              },
+              {
+                to: "/puzzle",
+                icon: <Puzzle className="h-4 w-4" />,
+                label: "Puzzle",
+              },
+              {
+                to: "/squares",
+                icon: <Target className="h-4 w-4" />,
+                label: "Squares",
+              },
               {
                 to: "/tutor",
                 icon: <Eye className="h-4 w-4" />,
@@ -95,10 +100,10 @@ const Header: React.FC = () => {
                 icon: <Box className="h-4 w-4" />,
                 label: "Sandbox",
               },
-            ]
-          : []),
-      ],
-    },
+            ],
+          },
+        ]
+      : []),
 
     // Community dropdown with NFT added
     {
