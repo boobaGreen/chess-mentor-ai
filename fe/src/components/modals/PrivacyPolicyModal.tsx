@@ -23,51 +23,53 @@ export const PrivacyPolicyModal: React.FC<PrivacyPolicyModalProps> = ({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-[800px] max-h-[80vh] bg-white">
         <DialogHeader>
-          <DialogTitle>Privacy Policy</DialogTitle>
+          <DialogTitle>Informativa sulla Privacy</DialogTitle>
           <DialogDescription>
-            How we handle your data and protect your privacy.
+            Come gestiamo e proteggiamo i tuoi dati su Chess Mentor AI.
           </DialogDescription>
         </DialogHeader>
         <ScrollArea className="h-[500px] pr-4">
           <div className="space-y-4">
             <section>
-              <h3 className="font-semibold mb-2">1. Data Collection</h3>
+              <h3 className="font-semibold mb-2">1. Raccolta Dati</h3>
               <p>
-                We collect minimal user data, limited to: - LinkedIn ID for
-                authentication - Username - Reports submitted by users
+                Raccogliamo solo i dati necessari per il funzionamento del
+                servizio: - ID di autenticazione da provider esterni
+                (GitHub/Google) - Cronologia delle partite - Progressi di
+                apprendimento - Note personali e analisi salvate
               </p>
             </section>
 
             <section>
-              <h3 className="font-semibold mb-2">2. Data Usage</h3>
+              <h3 className="font-semibold mb-2">2. Utilizzo dei Dati</h3>
               <p>
-                Your data is used solely for: - User authentication - Managing
-                report submissions - Displaying report history We do not collect
-                email addresses or share any personal data with third parties.
+                I tuoi dati vengono utilizzati per: - Personalizzare il percorso
+                di apprendimento - Fornire analisi delle partite - Tracciare i
+                progressi - Migliorare l'esperienza di apprendimento
               </p>
             </section>
 
             <section>
-              <h3 className="font-semibold mb-2">3. Data Protection</h3>
+              <h3 className="font-semibold mb-2">3. Protezione dei Dati</h3>
               <p>
-                All data is stored securely and we implement appropriate
-                measures to protect against unauthorized access, alteration, or
-                destruction of the data we hold.
+                Tutti i dati sono memorizzati in modo sicuro su Supabase. Non
+                condividiamo i tuoi dati con terze parti e implementiamo misure
+                di sicurezza appropriate per proteggere le tue informazioni.
               </p>
             </section>
 
             <section>
-              <h3 className="font-semibold mb-2">4. User Rights</h3>
+              <h3 className="font-semibold mb-2">4. Diritti dell'Utente</h3>
               <p>
-                Users have the right to: - Access their data - Request data
-                deletion - Modify their reports Contact us to exercise these
-                rights.
+                Hai il diritto di: - Accedere ai tuoi dati - Richiedere la
+                cancellazione del tuo account - Esportare le tue partite e
+                analisi - Modificare le tue impostazioni di privacy
               </p>
             </section>
           </div>
         </ScrollArea>
         <DialogFooter>
-          <Button onClick={onClose}>Close</Button>
+          <Button onClick={onClose}>Chiudi</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>

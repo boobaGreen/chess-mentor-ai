@@ -23,57 +23,51 @@ export const TermsOfServiceModal: React.FC<TermsOfServiceModalProps> = ({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-[800px] max-h-[80vh] bg-white">
         <DialogHeader>
-          <DialogTitle>Terms of Service</DialogTitle>
+          <DialogTitle>Termini di Servizio</DialogTitle>
           <DialogDescription>
-            Please read these terms carefully before using our service.
+            Leggi attentamente questi termini prima di utilizzare Chess Mentor AI.
           </DialogDescription>
         </DialogHeader>
         <ScrollArea className="h-[500px] pr-4">
           <div className="space-y-4">
             <section>
-              <h3 className="font-semibold mb-2">1. Service Overview</h3>
+              <h3 className="font-semibold mb-2">1. Panoramica del Servizio</h3>
               <p>
-                LinkedIn Scammer Blacklist is an open-source project designed to
-                help users identify and report potential scammers on LinkedIn.
-                The service is currently provided free of charge and allows
-                users to submit and view reports about suspicious LinkedIn
-                profiles.
+                Chess Mentor AI è un progetto didattico che offre un'esperienza di apprendimento 
+                degli scacchi assistita dall'intelligenza artificiale. Il servizio include analisi 
+                delle partite, tutorial interattivi e strumenti di pratica.
               </p>
             </section>
 
             <section>
-              <h3 className="font-semibold mb-2">2. User Responsibilities</h3>
+              <h3 className="font-semibold mb-2">2. Responsabilità dell'Utente</h3>
               <p>
-                Users must provide accurate information when submitting reports
-                and should not abuse the system by submitting false reports. We
-                reserve the right to suspend or terminate accounts that violate
-                these terms.
+                Gli utenti sono responsabili del proprio comportamento sulla piattaforma 
+                e devono rispettare le regole della community. Non è permesso l'uso di motori 
+                scacchistici esterni durante le partite o i puzzle.
               </p>
             </section>
 
             <section>
-              <h3 className="font-semibold mb-2">
-                3. Limitations of Liability
-              </h3>
+              <h3 className="font-semibold mb-2">3. Contenuti Educativi</h3>
               <p>
-                This is an open-source project provided "as is" without any
-                warranties. We are not responsible for any damages or losses
-                resulting from your use of the service.
+                I contenuti educativi sono forniti a scopo di apprendimento. Le analisi AI 
+                sono generate automaticamente e dovrebbero essere considerate come suggerimenti 
+                di studio, non verità assolute.
               </p>
             </section>
 
             <section>
-              <h3 className="font-semibold mb-2">4. Future Changes</h3>
+              <h3 className="font-semibold mb-2">4. Limitazioni di Responsabilità</h3>
               <p>
-                The service may evolve in the future to include premium features
-                or advertising. Any significant changes to the service will be
-                communicated to users in advance.
+                Questo è un progetto didattico fornito "così com'è". Non garantiamo 
+                la disponibilità continua del servizio o l'accuratezza delle analisi AI.
               </p>
             </section>
           </div>
         </ScrollArea>
         <DialogFooter>
-          <Button onClick={onClose}>Close</Button>
+          <Button onClick={onClose}>Chiudi</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>

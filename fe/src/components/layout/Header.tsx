@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Crown,
   Home,
@@ -16,6 +16,8 @@ import {
   Users,
   UserPlus,
   ChevronDown,
+  GraduationCap,
+  Diamond, // Added Diamond icon for NFT
 } from "lucide-react";
 import { Button } from "../ui/button";
 import {
@@ -27,16 +29,16 @@ import {
 import { useAuth } from "../../contexts/AuthContext";
 
 const Header: React.FC = () => {
-  const navigate = useNavigate();
   const { user, signOut } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
+  const [trainingOpen, setTrainingOpen] = useState(false);
 
   const handleLogout = async () => {
     try {
       await signOut();
-      navigate("/");
-      setMobileMenuOpen(false);
+      // Force page reload to clear all states including user avatar
+      window.location.href = "/login";
     } catch (error) {
       console.error("Error logging out:", error);
     }
@@ -50,25 +52,17 @@ const Header: React.FC = () => {
     setCommunityOpen(!communityOpen);
   };
 
+  const toggleTrainingMenu = () => {
+    setTrainingOpen(!trainingOpen);
+  };
+
   // Dynamic navigation items based on auth state
   const navItems = [
     { to: "/", icon: <Home className="h-4 w-4" />, label: "Home" },
-    { to: "/partita", icon: <Play className="h-4 w-4" />, label: "Play" },
-    { to: "/puzzle", icon: <Puzzle className="h-4 w-4" />, label: "Puzzle" },
 
-    // Protected routes - only show if user is authenticated
+    // Dashboard - second position
     ...(user
       ? [
-          {
-            to: "/tutor",
-            icon: <Eye className="h-4 w-4" />,
-            label: "Watch",
-          },
-          {
-            to: "/sandbox",
-            icon: <Box className="h-4 w-4" />,
-            label: "SandBox",
-          },
           {
             to: "/dashboard",
             icon: <List className="h-4 w-4" />,
@@ -77,7 +71,36 @@ const Header: React.FC = () => {
         ]
       : []),
 
-    // Community dropdown - always visible
+    // Training dropdown menu - third position
+    {
+      type: "dropdown",
+      label: "Training",
+      icon: <GraduationCap className="h-4 w-4" />,
+      items: [
+        { to: "/partita", icon: <Play className="h-4 w-4" />, label: "Play" },
+        {
+          to: "/puzzle",
+          icon: <Puzzle className="h-4 w-4" />,
+          label: "Puzzle",
+        },
+        ...(user
+          ? [
+              {
+                to: "/tutor",
+                icon: <Eye className="h-4 w-4" />,
+                label: "Watch",
+              },
+              {
+                to: "/sandbox",
+                icon: <Box className="h-4 w-4" />,
+                label: "Sandbox",
+              },
+            ]
+          : []),
+      ],
+    },
+
+    // Community dropdown with NFT added
     {
       type: "dropdown",
       label: "Community",
@@ -92,6 +115,11 @@ const Header: React.FC = () => {
           to: "/friends",
           icon: <UserPlus className="h-4 w-4" />,
           label: "Friends",
+        },
+        {
+          to: "/nft",
+          icon: <Diamond className="h-4 w-4" />,
+          label: "NFT",
         },
       ],
     },
@@ -235,11 +263,14 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-white border-t border-gray-200">
           {navItems.map((item, index) => {
             if (item.type === "dropdown") {
+              const isTraining = item.label === "Training";
               return (
                 <div key={index}>
                   <button
                     className="flex items-center justify-between w-full gap-2 px-4 py-3 hover:bg-gray-100 border-b border-gray-100"
-                    onClick={toggleCommunityMenu}
+                    onClick={
+                      isTraining ? toggleTrainingMenu : toggleCommunityMenu
+                    }
                   >
                     <div className="flex items-center gap-2">
                       {item.icon}
@@ -247,12 +278,15 @@ const Header: React.FC = () => {
                     </div>
                     <ChevronDown
                       className={`h-4 w-4 transition-transform ${
-                        communityOpen ? "rotate-180" : ""
+                        (isTraining ? trainingOpen : communityOpen)
+                          ? "rotate-180"
+                          : ""
                       }`}
                     />
                   </button>
 
-                  {communityOpen && (
+                  {((isTraining && trainingOpen) ||
+                    (!isTraining && communityOpen)) && (
                     <div className="bg-gray-50">
                       {item.items.map((subItem, subIndex) => (
                         <Link
