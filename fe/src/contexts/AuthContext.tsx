@@ -57,14 +57,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
       authListener.subscription.unsubscribe();
     };
   }, []);
-
   const signInWithGithub = async () => {
     try {
       setError(null);
-      const redirectURL =
-        import.meta.env.MODE === "production"
-          ? "https://cs-mentor-ai.vercel.app/auth/callback"
-          : `${window.location.origin}/auth/callback`;
+      const redirectURL = import.meta.env.VITE_SITE_URL + "/auth/callback";
 
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "github",
@@ -84,10 +80,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const signInWithGoogle = async () => {
     try {
       setError(null);
-      const redirectURL =
-        import.meta.env.MODE === "production"
-          ? "https://cs-mentor-ai.vercel.app/auth/callback"
-          : `${window.location.origin}/auth/callback`;
+      const redirectURL = import.meta.env.VITE_SITE_URL + "/auth/callback";
 
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
@@ -103,7 +96,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
       );
     }
   };
-
   const signOut = async () => {
     try {
       setError(null);
