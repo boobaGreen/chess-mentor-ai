@@ -29,3 +29,5 @@ env.env
 *.env
 notainterna.txt
 env/
+
+be/notainterna.txt
