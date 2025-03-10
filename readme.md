@@ -103,4 +103,4 @@ Connect with our friends in the chess and programming community:
 - [Chess Stack Exchange](https://chess.stackexchange.com) - Q&A for chess players and enthusiasts
 - [r/chess](https://www.reddit.com/r/chess/) - Active Reddit chess community
 
-We're always looking to expand our network of chess enthusiasts and developers. If you'd like your site or resource listed here, please contact us!
+We're always looking to expand our network of chess enthusiasts and developers. If you'd like your site or resource listed here, please contact us!!

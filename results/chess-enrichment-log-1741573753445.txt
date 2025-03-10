@@ -755,3 +755,60 @@ Tipo contenuto: STORY
 Richiesta specifica: A story about concentration and focus in critical moments
 Chiamata API in corso...
 Richiesta API: tentativo 1/3
+Tempo di risposta: 83.41 secondi
+
+--- CONTENUTO GENERATO ---
+### The Battle of Concentration: Karpov vs. Korchnoi, 1978
+
+In the sweltering heat of Baguio City, Philippines, two titans of chess clashed in one of the most psychologically charged World Championship matches in history. Anatoly Karpov, the reigning champion and your favorite player, faced Viktor Korchnoi, a defector from the Soviet Union who carried the weight of political tension on his shoulders. The match was not just a battle of wits but a war of nerves, focus, and unyielding concentration.
+
+The score was tied at 5-5 after 31 grueling games. The 32nd game would prove to be a turning point, not just in the match, but in the history of chess psychology. Karpov, known for his impeccable positional play and calm demeanor, found himself in a critical moment. Korchnoi, the relentless fighter, had pushed the game into a complex endgame where both players were low on time. The position was a minefield of tactical possibilities, and one slip could mean disaster.
+
+Karpov, with his trademark composure, sat motionless at the board, his eyes fixed on the position. Korchnoi, on the other hand, was visibly agitated, pacing the stage and muttering to himself. The tension in the room was palpable. Karpov’s ability to maintain his focus under such pressure was legendary, but this was a moment that tested even his limits.
+
+The position on the board was a delicate balance of material and activity. Karpov had a slight edge with his more active king and better pawn structure, but Korchnoi’s pieces were poised to create counterplay. The critical moment came when Karpov, after a deep think, played **45. Kc4!**, a move that showcased his profound understanding of king activity in endgames. Korchnoi, under time pressure, responded with **45...Rb4**, hoping to create threats against Karpov’s pawns.
+
+What followed was a masterclass in concentration. Karpov, sensing Korchnoi’s discomfort, played with surgical precision. He maneuvered his king and rook to dominate the position, all while Korchnoi’s clock ticked down. The psychological pressure was immense. Korchnoi, known for his resilience, began to crack. He made a series of small inaccuracies, each one chipping away at his position.
+
+Karpov’s **48. Rf5!** was a move of pure calculation and focus. It not only defended his pawns but also prepared to infiltrate Korchnoi’s position. Korchnoi, now in severe time trouble, blundered with **48...Rb6?**, allowing Karpov to seize control with **49. Rf6!**. The rook’s dominance on the sixth rank was decisive. Korchnoi resigned a few moves later, unable to withstand the relentless pressure.
+
+This game was a testament to Karpov’s ability to maintain focus in the most critical moments. His calm under pressure, combined with his deep understanding of endgame principles, allowed him to outmaneuver a formidable opponent. The lesson here is clear: in chess, as in life, concentration and focus are your greatest allies. When the pressure mounts, it’s not just about the moves you make, but the mental fortitude you bring to the board.
+
+For you, Alessandro, as a player who values positional play and endgames, this story underscores the importance of maintaining composure and calculating deeply, even when the stakes are highest. Karpov’s mastery in this game is a reminder that the ability to stay focused and patient can turn even the most complex positions into victories.
+
+--- STATISTICHE UTILIZZO ---
+- Token totali: 1079
+- Costo: $0.000891
+Risultati aggiornati salvati in: /home/clod/Desktop/cs-mentor-ai/results/chess-enrichment-1741573753445.json
+
+===== TEST COMPARATIVO =====
+TEMA: "the immortal game"
+
+INVIO RICHIESTA PER MARCO (beginner, ELO: 800)...
+Richiesta API: tentativo 1/3
+[ERROR] Tentativo 1 fallito: aborted
+Attesa di 2 secondi prima del prossimo tentativo...
+Richiesta API: tentativo 2/3
+[ERROR] Tentativo 2 fallito: aborted
+Attesa di 2 secondi prima del prossimo tentativo...
+Richiesta API: tentativo 3/3
+[ERROR] Tentativo 3 fallito: aborted
+RISPOSTA RICEVUTA (0 tokens, $0.000000)
+Sommario contenuto: ERRORE API: Impossibile ottenere una risposta dopo multipli tentativi....
+
+INVIO RICHIESTA PER SOFIA (intermediate, ELO: 1500)...
+Richiesta API: tentativo 1/3
+[ERROR] Tentativo 1 fallito: aborted
+Attesa di 2 secondi prima del prossimo tentativo...
+Richiesta API: tentativo 2/3
+[ERROR] Tentativo 2 fallito: aborted
+Attesa di 2 secondi prima del prossimo tentativo...
+Richiesta API: tentativo 3/3
+RISPOSTA RICEVUTA (1303 tokens, $0.001143)
+Sommario contenuto: ### The Immortal Game: Anderssen vs. Kieseritzky (1851)
+
+**Context and Players:**
+The Immortal Game ...
+
+INVIO RICHIESTA PER ALESSANDRO (advanced, ELO: 2100)...
+Richiesta API: tentativo 1/3
