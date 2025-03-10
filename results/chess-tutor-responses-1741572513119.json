@@ -1,0 +1,493 @@
+[
+  {
+    "timestamp": "2025-03-10T02:08:58.951Z",
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "What should I focus on learning first as a beginner?",
+    "answer": "Marco, based on your level and goals, here's a focused learning plan to help you reach 1200 ELO:\n\n1. **Tactics First (Priority #1)**  \n   - Since your puzzle success rate is 33%, we need to boost your tactical vision\n   - Start with simple 1-move tactics: forks, pins, and discovered attacks\n   - Do 10-15 puzzles daily on Chess.com or Lichess (set to 800-1000 rating)\n   - Key tip: Always look for checks, captures, and threats in every position\n\n2. **Basic Endgames (Priority #2)**  \n   - Learn these 3 essential endgames first:\n     1. King + Queen vs King\n     2. King + Rook vs King\n     3. Basic pawn endgames (rule of the square)\n   - Practice these against the computer until they're automatic\n\n3. **Opening Principles (Not Memorization)**  \n   - Focus on these fundamentals:\n     - Control the center (e4, d4, e5, d5 squares)\n     - Develop your knights and bishops early\n     - Castle quickly\n   - Avoid moving the same piece multiple times in the opening\n\n4. **Time Management**  \n   - In online games, use at least 10 minutes per side\n   - Spend more time calculating critical positions\n   - Don't rush moves - always check for threats\n\n5. **Game Analysis**  \n   - After each game, identify 1 tactical mistake and 1 positional mistake\n   - Use the computer analysis to understand what you missed\n\nAction Plan for This Week:\n1. Do 10 puzzles daily (focus on spotting forks)\n2. Practice King + Queen vs King endgame 3 times\n3. Play 2 online games (10+0 time control)\n4. Analyze both games using computer assistance\n\nRemember: At 800 ELO, improving your tactical vision will give you the biggest boost. Let me know if you want specific puzzle examples or endgame practice positions!",
+    "usage": {
+      "prompt_tokens": 196,
+      "completion_tokens": 421,
+      "total_tokens": 617,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 196
+    },
+    "costs": {
+      "cacheHitCost": 0,
+      "cacheMissCost": 0.00005292,
+      "outputCost": 0.00046310000000000004,
+      "total": 0.00051602
+    },
+    "responseTime": 25829
+  },
+  {
+    "timestamp": "2025-03-10T02:09:25.257Z",
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "How can I improve my tactical vision?",
+    "answer": "Hi Marco! Great to see your enthusiasm for improving your tactical vision - this is one of the most important skills to develop as you work towards 1200 ELO. Let's focus on practical steps tailored to your current level:\n\n1. **Daily Puzzle Routine** (15-20 minutes)\nSince your puzzle success rate is 33%, we'll start with easier puzzles and build up:\n- Do 5-10 puzzles/day on Chess.com or Lichess (set to 800-1000 rating)\n- Focus on these patterns: forks, pins, and discovered attacks\n- Spend 2-3 minutes per puzzle - if you don't see it, make your best guess\n\n2. **Pattern Recognition Drills**\nYour strength in pattern recognition is perfect for this:\n- Use the \"Woodpecker Method\" with just 100 basic tactical positions\n- Repeat the same set daily for 1 week, then switch to new positions\n- Focus on seeing the patterns quickly rather than solving perfectly\n\n3. **Game Analysis**\nAfter each game:\n- Use the computer analysis to find 1 tactical moment you missed\n- Try to understand why you missed it (was it pattern recognition? calculation?)\n- Add these positions to your personal tactics collection\n\n4. **Practical Tips During Games**\n- Always check for:\n  - Pieces that are undefended\n  - Pieces that can be forked\n  - Pins (especially against your king)\n- Spend 30 seconds before each move looking for tactics\n\n5. **Recommended Resources**\n- \"Chess Tactics for Champions\" by Susan Polgar (start with the easiest exercises)\n- Lichess Tactics Trainer (it's free and has great beginner puzzles)\n- Chess.com's \"Tactics Trainer\" (use the mobile app for quick practice)\n\nRemember, improvement takes time - even increasing your puzzle success rate to 50% will make a huge difference in your games. Keep at it, and you'll start spotting those winning tactics in no time!\n\nWould you like me to suggest some specific puzzle themes or patterns to focus on first?",
+    "usage": {
+      "prompt_tokens": 193,
+      "completion_tokens": 426,
+      "total_tokens": 619,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 65
+    },
+    "costs": {
+      "cacheHitCost": 0.00000896,
+      "cacheMissCost": 0.00001755,
+      "outputCost": 0.0004686,
+      "total": 0.00049511
+    },
+    "responseTime": 25302
+  },
+  {
+    "timestamp": "2025-03-10T02:09:59.493Z",
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "I always lose in endgames, what should I do?",
+    "answer": "Hi Marco! Endgames can be tricky, but they're a great area to improve because they often decide the outcome of games at your level. Let’s focus on practical steps to help you get better:\n\n---\n\n### **1. Learn the Basics of King and Pawn Endgames**\nAt your level, most endgames come down to king and pawn battles. Start with these key ideas:\n- **The Rule of the Square**: Learn how to calculate if a pawn can queen without your king’s help.\n- **Opposition**: Understand how to use your king to block the opponent’s king (e.g., direct opposition, distant opposition).\n- **Pawn Promotion**: Practice pushing pawns to promotion while stopping your opponent’s pawns.\n\n**Exercise**: Set up simple king and pawn vs. king positions on the board and practice promoting your pawn while stopping your opponent’s.\n\n---\n\n### **2. Simplify the Position**\nIf you’re struggling in endgames, try to simplify the position earlier in the game:\n- Trade pieces (but not pawns!) when you’re ahead in material.\n- Avoid unnecessary complications if you’re winning.\n\n---\n\n### **3. Practice Basic Checkmates**\nEndgames often involve checkmating with limited material. Focus on these:\n- **King + Queen vs. King**: Learn the basic technique to force checkmate.\n- **King + Rook vs. King**: Practice cutting off the opponent’s king and driving it to the edge.\n\n**Exercise**: Use a chess app or set up these positions on a board and practice until you can do them quickly and confidently.\n\n---\n\n### **4. Play Endgame Puzzles**\nSince your puzzle success rate is 33%, let’s focus on endgame-specific puzzles. These will help you recognize patterns and improve your calculation skills.\n\n**Recommendation**: Use apps like Chess.com or Lichess and filter puzzles by “endgame” or “pawn endgames.” Start with easier puzzles and gradually increase difficulty.\n\n---\n\n### **5. Time Management in Endgames**\nAt your level, players often rush in endgames. Take your time to calculate:\n- Can I promote my pawn?\n- Can I stop their pawn?\n- Where should my king go?\n\n---\n\n### **6. Study a Simple Endgame Plan**\nHere’s a basic plan for endgames:\n1. Activate your king (it’s your strongest piece in the endgame!).\n2. Push your",
+    "usage": {
+      "prompt_tokens": 197,
+      "completion_tokens": 500,
+      "total_tokens": 697,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 69
+    },
+    "costs": {
+      "cacheHitCost": 0.00000896,
+      "cacheMissCost": 0.000018630000000000003,
+      "outputCost": 0.00055,
+      "total": 0.00057759
+    },
+    "responseTime": 33232
+  },
+  {
+    "timestamp": "2025-03-10T02:10:26.988Z",
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "What should I do in this position?",
+    "position": "r4rk1/pp2ppbp/2p3p1/q7/3P1B2/P1Q5/1P3PPP/R3R1K1 w - - 0 1",
+    "answer": "Let's break this down step by step, Marco!\n\nFirst, let's assess the position:\n- You're White (good - you get to move first!)\n- Material is equal (both sides have the same number of pieces)\n- Your pieces are active: Bishop on f4, Queen on c3, Rook on e1\n- Black has a Queen on a5 that looks a bit exposed\n\nYour immediate opportunities:\n1. **Tactical Awareness**: Look for pieces that are undefended or poorly defended\n2. **Pattern Recognition**: Notice how your Bishop on f4 and Queen on c3 are both pointing at Black's kingside\n\nThe best move here is **1. Bxh6!** - a classic bishop sacrifice!\n\nWhy this works:\n1. Black's g6 pawn is the only defender of the h6 square\n2. After 1...gxh6, you play 2. Qg3+ and Black's king is in big trouble\n3. If Black tries 1...Qxc3, you take back with 2. bxc3 and your rook on e1 becomes super active\n\nThis is a great example of using your pattern recognition skills (bishop + queen battery) and improving tactical awareness (spotting the weak h6 square).\n\nPractice suggestion:\n- Set up this position on a board or online\n- Try the Bxh6 sacrifice against a computer\n- Notice how the attack develops after the sacrifice\n\nRemember: At your level, always look for:\n1. Undefended pieces\n2. Pieces that are only defended once\n3. Opportunities to attack the king\n\nKeep up the great work! These tactical patterns will become second nature with practice.",
+    "usage": {
+      "prompt_tokens": 241,
+      "completion_tokens": 348,
+      "total_tokens": 589,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 113
+    },
+    "costs": {
+      "cacheHitCost": 0.00000896,
+      "cacheMissCost": 0.00003051,
+      "outputCost": 0.00038280000000000003,
+      "total": 0.00042227
+    },
+    "responseTime": 26490
+  },
+  {
+    "timestamp": "2025-03-10T02:10:46.100Z",
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "Is there a tactic here?",
+    "position": "r4rk1/pp2ppbp/2p3p1/q7/3P1B2/P1Q5/1P3PPP/R3R1K1 w - - 0 1",
+    "answer": "Let's analyze this position together, Marco! At your level, it's great that you're looking for tactics - this is exactly how you'll improve your tactical vision.\n\nYes, there is a nice tactic here! Let me guide you through it:\n\n1. First, notice that Black's queen on a5 is undefended\n2. Look at your pieces - your bishop on f4 and queen on c3 are both pointing at the a5 square\n3. The key idea: **discovered attack** using your bishop\n\nHere's the winning tactic:\n1. **Bxc7!** (Bishop takes pawn on c7)\n   - This attacks the rook on a8\n   - More importantly, it opens the diagonal for your queen to attack the black queen\n2. If Black takes the bishop with Rxc7, then:\n   - **Qxa5** wins the queen!\n\nThis is a great example of a **discovered attack** - one of the most common tactical patterns you'll see in games. At your level, I recommend:\n\n1. Practice more puzzles focusing on discovered attacks\n2. In your games, always look for:\n   - Undefended pieces\n   - Opportunities to attack two pieces at once\n   - Pieces that can move to reveal an attack\n\nWould you like me to suggest some specific puzzle themes or training methods to help you spot these tactics more easily?",
+    "usage": {
+      "prompt_tokens": 239,
+      "completion_tokens": 287,
+      "total_tokens": 526,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 47
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.00001269,
+      "outputCost": 0.00031570000000000003,
+      "total": 0.00034183000000000005
+    },
+    "responseTime": 18109
+  },
+  {
+    "timestamp": "2025-03-10T02:11:16.778Z",
+    "profile": {
+      "name": "Sofia",
+      "level": "intermediate",
+      "elo": 1500
+    },
+    "query": "How can I improve my understanding of pawn structures?",
+    "answer": "Sofia, improving your pawn structure understanding is crucial for reaching 1800 ELO. Since you're already strong in attacking play, we'll focus on connecting this strength with better positional awareness. Here's a targeted plan:\n\n1. **Sicilian Pawn Structures (Leveraging Your Strength)**\n   - Study typical pawn formations in your favorite Sicilian lines\n   - Focus on the Maroczy Bind (e4+c4 vs d6+e5) and Hedgehog structures\n   - Learn when to push d5 or f5 in the Dragon and Najdorf\n\n2. **Practical Exercises**\n   - Analyze 10 master games in your preferred Sicilian lines\n   - For each game, identify:\n     * Key pawn breaks\n     * Weak squares created by pawn moves\n     * How pawn structure influenced piece placement\n   - Use the \"pawn structure\" filter in your database\n\n3. **Common Patterns to Study**\n   - Isolated Queen's Pawn (IQP) - common in your QGD loss\n   - French Defense pawn chains (from your recent draw)\n   - Backward pawns and how to attack/defend them\n   - Passed pawns in the endgame\n\n4. **Immediate Application**\n   - In your next 5 games, before every pawn move, ask:\n     1. Does this create weaknesses?\n     2. What squares does it control?\n     3. What future breaks does it enable?\n   - Keep a notebook of your pawn structure decisions\n\n5. **Recommended Resources**\n   - \"Pawn Structure Chess\" by Andrew Soltis\n   - Chessable course: \"Sicilian Structures\" by IM Christof Sielecki\n   - Lichess pawn structure studies (free)\n\nWould you like me to analyze a specific pawn structure from one of your recent games to demonstrate these concepts?",
+    "usage": {
+      "prompt_tokens": 215,
+      "completion_tokens": 381,
+      "total_tokens": 596,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 215
+    },
+    "costs": {
+      "cacheHitCost": 0,
+      "cacheMissCost": 0.00005805,
+      "outputCost": 0.00041910000000000005,
+      "total": 0.00047715
+    },
+    "responseTime": 29674
+  },
+  {
+    "timestamp": "2025-03-10T02:11:47.973Z",
+    "profile": {
+      "name": "Sofia",
+      "level": "intermediate",
+      "elo": 1500
+    },
+    "query": "What resources would help me master the Sicilian Defense?",
+    "answer": "Sofia, since you're already having success with the Sicilian Defense and it aligns with your attacking style, let's focus on resources that will deepen your understanding while addressing your positional weaknesses. Here's a targeted plan:\n\n1. **Books (Practical and Positional Focus):**\n- \"The Sicilian Defense: Move by Move\" by Cyrus Lakdawala (excellent for intermediate players)\n- \"Winning with the Sicilian\" by Mark Taimanov (covers both attacking and positional ideas)\n\n2. **Video Courses:**\n- Chessable's \"Short & Sweet: Sicilian Defense\" (great for building repertoire)\n- St. Louis Chess Club's Sicilian Defense lectures on YouTube (free and high-quality)\n\n3. **Practical Training:**\n- Create a Sicilian database of your games (use ChessBase or Lichess study feature)\n- Analyze 10 master games per week in your chosen Sicilian variation\n- Focus on pawn structures in the Dragon, Najdorf, and Scheveningen\n\n4. **Puzzle Training:**\n- Use Lichess's Sicilian Defense-specific puzzles\n- Focus on tactical patterns that arise in your chosen lines\n\n5. **Positional Study:**\n- Work through \"Pawn Structure Chess\" by Andrew Soltis (especially Sicilian chapters)\n- Study typical endgames that arise from the Sicilian\n\nPro Tip: Choose 2-3 Sicilian variations to specialize in (e.g., Najdorf, Dragon, Sveshnikov) rather than trying to learn everything. This focused approach will help you build deep understanding while improving your positional play through specific structures.\n\nWould you like me to suggest specific variations based on your playing style?",
+    "usage": {
+      "prompt_tokens": 216,
+      "completion_tokens": 345,
+      "total_tokens": 561,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 24
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.000006480000000000001,
+      "outputCost": 0.00037950000000000006,
+      "total": 0.00039942000000000005
+    },
+    "responseTime": 30192
+  },
+  {
+    "timestamp": "2025-03-10T02:12:10.148Z",
+    "profile": {
+      "name": "Sofia",
+      "level": "intermediate",
+      "elo": 1500
+    },
+    "query": "I struggle in complex middlegame positions, any advice?",
+    "answer": "Sofia, your recent games and puzzle performance show you're doing well in tactical situations, but struggling with complex middlegame positions. Let's focus on improving this while leveraging your strengths in attacking play.\n\nHere's a targeted plan:\n\n1. **Simplify First, Attack Later**\n   - In complex positions, look for ways to simplify the position before launching attacks\n   - Trade off some pieces to reduce tension and clarify the position\n   - Example: If you have a space advantage, consider trading queens but keeping rooks\n\n2. **Pawn Structure Awareness**\n   - Study typical pawn structures in the Sicilian (your goal opening)\n   - Learn to identify weak squares and pawn breaks\n   - Practice games focusing only on pawn moves and structure\n\n3. **Defensive Calculation**\n   - When defending, calculate 3 moves ahead:\n     1. Opponent's threat\n     2. Your response\n     3. Their follow-up\n   - Use your puzzle skills to spot defensive resources\n\n4. **Practical Exercise**\n   - Take 3 of your recent complex middlegame positions\n   - For each position:\n     - Identify the key imbalances (material, space, structure)\n     - Find 2 candidate moves\n     - Calculate 3 moves deep for each\n     - Choose the most practical option\n\n5. **Study Material**\n   - \"Simple Chess\" by Stean (excellent for positional understanding)\n   - \"Pawn Structure Chess\" by Soltis (focus on Sicilian structures)\n\nWould you like me to analyze one of your recent complex middlegame positions to demonstrate these concepts? This would help make the advice more concrete for your level.",
+    "usage": {
+      "prompt_tokens": 217,
+      "completion_tokens": 339,
+      "total_tokens": 556,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 25
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.00000675,
+      "outputCost": 0.0003729,
+      "total": 0.00039309
+    },
+    "responseTime": 21171
+  },
+  {
+    "timestamp": "2025-03-10T02:12:39.872Z",
+    "profile": {
+      "name": "Sofia",
+      "level": "intermediate",
+      "elo": 1500
+    },
+    "query": "What's my best plan in this position?",
+    "position": "r1bq1rk1/pp2ppbp/2np1np1/8/3NP3/2N1BP2/PPPQ2PP/R3KB1R w KQ - 0 1",
+    "answer": "This is a typical Sicilian Defense position (Dragon Variation) where you have a strong center and active pieces. Let's break down the position and create a concrete plan based on your strengths and weaknesses:\n\nKey features:\n1. You have a strong pawn center with e4 and d4\n2. Your pieces are well-developed and active\n3. Black has fianchettoed their bishop on g7\n4. Both kings are still in the center\n\nYour best plan (focusing on your attacking strengths):\n1. Castle kingside immediately (0-0) to secure your king\n2. Prepare a central breakthrough with d4-d5\n3. Look for tactical opportunities on the dark squares (f5, d5, e6)\n4. Consider transferring your queen to h4 for kingside pressure\n\nWhy this plan works for you:\n- It plays to your strength in attacking play\n- It creates concrete tactical opportunities\n- It maintains your space advantage\n- It prevents Black from getting counterplay\n\nSpecific moves to consider:\n1. 0-0 (essential for king safety)\n2. Rad1 (activating your rook and supporting d5 push)\n3. Qh4 (if Black plays ...h6, this becomes strong)\n4. d5 (when properly prepared, this can open the center)\n\nThings to watch out for:\n- Black's counterplay on the c-file\n- Potential ...b5 pawn pushes\n- Tactical shots involving ...Nxd4\n\nThis plan gives you active piece play while limiting Black's counterplay - exactly the kind of position where your attacking skills can shine. Remember to calculate carefully before pushing d5, as this is a critical decision point in the game.\n\nWould you like me to show you some specific tactical lines that might arise from this position?",
+    "usage": {
+      "prompt_tokens": 265,
+      "completion_tokens": 368,
+      "total_tokens": 633,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 73
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.00001971,
+      "outputCost": 0.00040480000000000003,
+      "total": 0.00043795000000000005
+    },
+    "responseTime": 28718
+  },
+  {
+    "timestamp": "2025-03-10T02:13:15.112Z",
+    "profile": {
+      "name": "Sofia",
+      "level": "intermediate",
+      "elo": 1500
+    },
+    "query": "How should I evaluate this position?",
+    "position": "r1bq1rk1/pp2ppbp/2np1np1/8/3NP3/2N1BP2/PPPQ2PP/R3KB1R w KQ - 0 1",
+    "answer": "Let's break this down step by step, Sofia. This is a typical Sicilian Defense position (Dragon Variation) where you're playing White. Here's how to evaluate it:\n\n1. **Material**: Equal - both sides have all pieces\n2. **Pawn Structure**:\n   - White has a strong center with e4 and d4 pawns\n   - Black has the typical Dragon pawn structure with pawns on d6 and e7\n   - Notice Black's pawn on g6 - this is key to their strategy\n\n3. **Piece Activity**:\n   - Your pieces are well-placed: knights on c3 and e4, bishop on e3\n   - Black's bishop on g7 is their most dangerous piece\n   - Both sides have castled kingside\n\n4. **Key Features**:\n   - Open c-file (important for both sides)\n   - Potential for kingside attacks\n   - Space advantage for White in the center\n\n5. **Plans**:\n   - For White (you): \n     * Consider Qd2 followed by Bh6 to exchange the dark-squared bishops\n     * Prepare f4-f5 push to attack Black's kingside\n     * Look for opportunities to control the c-file with Rc1\n   - For Black:\n     * Will aim for ...b5 counterplay on the queenside\n     * May try ...Rc8 to challenge the c-file\n     * Could prepare ...d5 break in the center\n\nYour strengths in attacking play will be valuable here. Look for ways to build pressure on the kingside while being mindful of Black's counterplay on the queenside.\n\nWould you like me to suggest specific moves or explain any of these concepts in more detail?",
+    "usage": {
+      "prompt_tokens": 263,
+      "completion_tokens": 358,
+      "total_tokens": 621,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 71
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.00001917,
+      "outputCost": 0.00039380000000000003,
+      "total": 0.00042641
+    },
+    "responseTime": 34235
+  },
+  {
+    "timestamp": "2025-03-10T02:13:40.895Z",
+    "profile": {
+      "name": "Alessandro",
+      "level": "advanced",
+      "elo": 2100
+    },
+    "query": "How can I improve my performance under time pressure?",
+    "answer": "Time pressure is a critical area for improvement, especially at your level where games are often decided in time scrambles. Here's a targeted plan:\n\n1. **Time Management System**\n- First 20 moves: 40% of your time\n- Next 20 moves: 40% of your time\n- Remaining moves: 20% of your time\nSet silent alarms on your phone during practice games to enforce this.\n\n2. **Blitz Training with Purpose**\nPlay 3+2 blitz games focusing on:\n- Quick pattern recognition\n- Immediate candidate move selection\n- Clock awareness\nAnalyze these games to identify where you're spending too much time.\n\n3. **Time Pressure Simulations**\nIn your training:\n- Set up complex positions from master games\n- Give yourself 5 minutes vs opponent's 30\n- Practice converting advantages under pressure\n\n4. **Decision-Making Framework**\nWhen under 5 minutes:\n1. Identify 2-3 candidate moves (max)\n2. Calculate only forced lines\n3. If unclear, play the most active move\n4. Never spend more than 30 seconds on a move\n\n5. **Endgame Time Saver**\nMemorize these key positions to save time:\n- Lucena and Philidor positions\n- K+P vs K\n- Basic rook endings\n- Opposite-colored bishop endings\n\n6. **Psychological Preparation**\n- Practice deep breathing techniques\n- Develop a pre-move routine\n- Visualize successful time scrambles\n\n7. **Specific Drills**\n- Solve 10 tactical puzzles daily with 30 seconds each\n- Play 2 rapid games daily focusing on clock management\n- Analyze your time usage in recent tournament games\n\nRemember, time pressure skills are like muscle memory - they need consistent, focused training. Start with 30 minutes daily dedicated to these exercises, and you'll see improvement within 2-3 months.\n\nWould you like me to suggest specific training positions or exercises for any of these areas?",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 403,
+      "total_tokens": 626,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 223
+    },
+    "costs": {
+      "cacheHitCost": 0,
+      "cacheMissCost": 0.00006021,
+      "outputCost": 0.0004433,
+      "total": 0.00050351
+    },
+    "responseTime": 24778
+  },
+  {
+    "timestamp": "2025-03-10T02:14:10.279Z",
+    "profile": {
+      "name": "Alessandro",
+      "level": "advanced",
+      "elo": 2100
+    },
+    "query": "What training regimen would you recommend for a 2100 player?",
+    "answer": "For a 2100 player like Alessandro, the training regimen should focus on refining strengths, addressing weaknesses, and preparing for the next level (2300 ELO). Here's a tailored plan:\n\n---\n\n### **1. Opening Preparation (2-3 hours/week)**\n- **Focus**: Deepen your repertoire with dynamic, flexible systems that suit your style.\n  - For **1.e4**: Expand your Najdorf knowledge with modern pawn sacrifice lines (e.g., 6.Bg5, 6.Be3) and anti-Sicilians.\n  - For **1.d4**: Study the King's Indian Defense (KID) from both sides, especially the Classical and Samisch variations, to improve your understanding of complex middlegames.\n  - Add **1.c4** or **1.Nf3** as a surprise weapon against strong opponents.\n- **Method**: Use ChessBase or Lichess studies to analyze master games in your chosen lines. Focus on plans, pawn structures, and typical sacrifices.\n\n---\n\n### **2. Complex Middlegame Training (4-5 hours/week)**\n- **Focus**: Improve decision-making in dynamic, unclear positions.\n  - Study **dynamic pawn sacrifices** (e.g., Benko Gambit, Marshall Attack, or Sicilian pawn sacrifices).\n  - Analyze **IM/GM games** with sharp middlegames (e.g., Tal, Shirov, or Carlsen).\n  - Solve **advanced tactics puzzles** (rated 2200+ on Lichess or Chess.com) to sharpen calculation in chaotic positions.\n- **Method**: Play 15-20 training games (rapid or classical) with a focus on dynamic play. Review each game to identify where you could have taken more risks or calculated deeper.\n\n---\n\n### **3. Endgame Refinement (2 hours/week)**\n- **Focus**: Master advanced endgame techniques to convert small advantages.\n  - Study **rook endgames** (e.g., Lucena, Philidor, and practical examples from Capablanca or Carlsen).\n  - Practice **minor piece endgames** (e.g., bishop vs. knight, opposite-colored bishops).\n  - Work on **technique in winning positions** to avoid time-pressure blunders.\n- **Method**: Use endgame books like *Dvoretsky's Endgame Manual* or online endgame trainers. Play out positions against a strong engine to test your understanding.\n\n---\n\n### **4",
+    "usage": {
+      "prompt_tokens": 226,
+      "completion_tokens": 500,
+      "total_tokens": 726,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 34
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.00000918,
+      "outputCost": 0.00055,
+      "total": 0.00057262
+    },
+    "responseTime": 28381
+  },
+  {
+    "timestamp": "2025-03-10T02:14:41.021Z",
+    "profile": {
+      "name": "Alessandro",
+      "level": "advanced",
+      "elo": 2100
+    },
+    "query": "How can I better handle complex positional sacrifices?",
+    "answer": "Alessandro, given your strong calculation skills and goal to master dynamic sacrifices, let's focus on improving your handling of complex positional sacrifices. Here's a targeted approach:\n\n1. **Conceptual Framework**\n- Understand the 3 key elements of positional sacrifices:\n  a) Long-term compensation (space, structure, activity)\n  b) Psychological impact (forcing opponent out of comfort zone)\n  c) Transformation of advantages (material → initiative)\n\n2. **Practical Training Plan**\n- Study classic games with positional sacrifices:\n  * Karpov's exchange sacrifices (e.g., Karpov-Unzicker 1974)\n  * Kasparov's pawn sacrifices for initiative\n  * Carlsen's modern positional sacrifices\n\n- Create a database of 50-100 positional sacrifice positions:\n  * Categorize by type (exchange, pawn, piece)\n  * Analyze compensation patterns\n  * Practice calculating 5-7 moves ahead\n\n3. **Decision-Making Process**\nWhen considering a positional sacrifice:\n- Evaluate opponent's time situation (especially important for you)\n- Assess your piece activity potential\n- Calculate concrete lines for at least 3 candidate moves\n- Consider the psychological impact on your opponent\n\n4. **Specific Exercises**\n- Solve 5 positional sacrifice puzzles daily (focus on 2300+ level)\n- Play training games where you must sacrifice material by move 20\n- Analyze your own games to identify missed sacrifice opportunities\n\n5. **Tournament Preparation**\n- Identify 2-3 openings where positional sacrifices frequently occur\n  (e.g., Sicilian Najdorf, King's Indian, Benoni)\n- Prepare specific sacrifice lines in your repertoire\n- Practice transitioning from sacrifice to technical realization\n\nRemember, at your level, the key is developing intuition for when the compensation is sufficient. Track your sacrifice decisions in games and review them with a stronger player or coach to refine your judgment.\n\nWould you like me to suggest specific games or positions to study first?",
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 399,
+      "total_tokens": 621,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 30
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.000008100000000000002,
+      "outputCost": 0.00043890000000000004,
+      "total": 0.00046044000000000006
+    },
+    "responseTime": 29739
+  },
+  {
+    "timestamp": "2025-03-10T02:15:23.210Z",
+    "profile": {
+      "name": "Alessandro",
+      "level": "advanced",
+      "elo": 2100
+    },
+    "query": "How should I proceed in this endgame?",
+    "position": "8/8/8/3k4/8/3K4/4P3/8 w - - 0 1",
+    "answer": "This is a classic king and pawn vs. king endgame, and your goal is to promote the pawn. Here's how to proceed:\n\n### Key Principles:\n1. **Opposition**: The key to winning this endgame is to achieve the opposition with your king. This means placing your king directly in front of the opponent's king with one square in between.\n2. **Pawn Advancement**: Your pawn should advance only when your king can support it and maintain the opposition.\n\n### Step-by-Step Plan:\n1. **Move your king forward**: Start by moving your king closer to the pawn. The goal is to get your king in front of the pawn to support its advance.\n   - **1. Kc4**: Move your king to c4. This move aims to control key squares and prepare for the opposition.\n\n2. **Force the opposition**: After 1. Kc4, Black will likely respond with 1...Kc6 to maintain the opposition. Now, you need to maneuver your king to gain the opposition.\n   - **2. Kd4**: Move your king to d4. This move aims to control the d5 square and prepare for the next step.\n\n3. **Advance the pawn**: Once you have the opposition, you can start advancing the pawn.\n   - **3. e4**: Push the pawn to e4. This move prepares to advance the pawn further while keeping the opposition.\n\n4. **Continue the opposition**: Black will try to block your pawn, but you can continue to use the opposition to force the pawn forward.\n   - **4. Ke5**: Move your king to e5. This move aims to control the e6 square and prepare for the final push.\n\n5. **Promote the pawn**: With your king supporting the pawn, you can now push it to promotion.\n   - **5. e5**: Push the pawn to e5. Black's king will be forced to retreat, and you can continue to advance the pawn to e6, e7, and finally e8 to promote to a queen.\n\n### Summary:\n- **1. Kc4 Kc6**\n- **2. Kd4 Kd6**\n- **3. e4 Ke6**\n- **4. Ke5 Kf7**\n- **5. e5 Ke7**\n- **6. e6 Kf8**\n- **7. e7 Kg7**\n- **8.",
+    "usage": {
+      "prompt_tokens": 254,
+      "completion_tokens": 499,
+      "total_tokens": 753,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 62
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.000016740000000000002,
+      "outputCost": 0.0005489000000000001,
+      "total": 0.00057908
+    },
+    "responseTime": 41185
+  },
+  {
+    "timestamp": "2025-03-10T02:15:46.256Z",
+    "profile": {
+      "name": "Alessandro",
+      "level": "advanced",
+      "elo": 2100
+    },
+    "query": "Analyze the key features of this position",
+    "position": "8/8/8/3k4/8/3K4/4P3/8 w - - 0 1",
+    "answer": "Let's break down this endgame position systematically:\n\nKey features:\n1. Material: Equal - just kings and pawns\n2. Pawn structure: White has a passed e-pawn, Black has no pawns\n3. King activity: Black's king is more centralized\n4. Key squares: e4, e5, e6 for White's pawn promotion\n\nCritical observations:\n- White's e-pawn is the only potential winning chance\n- Black's king is optimally placed to stop the pawn\n- White's king needs to support the pawn's advance\n\nKey calculation points:\n1. Immediate e4? Black's king can capture: Ke5 Kxe4 = draw\n2. King maneuver: White must bring the king closer to support the pawn\n3. Opposition concept: Crucial in king and pawn endgames\n\nBest continuation:\n1. Ke3! (gaining opposition)\n   Ke5 2. e4 Ke6 3. Ke4! (maintaining opposition)\n   Ke7 4. e5 Kd7 5. Kd5 Ke7 6. e6 Kd8 7. Kd6 Ke8 8. e7 Kf7 9. Kd7\n\nThis is a theoretical draw with best play, but requires precise calculation. At your level, I recommend:\n\n1. Practice similar king and pawn endgames\n2. Study opposition and key square concepts\n3. Work on calculating long king maneuvers\n4. Analyze classic endgames like this in your training\n\nWould you like me to suggest specific training methods or resources to improve your endgame technique further?",
+    "usage": {
+      "prompt_tokens": 252,
+      "completion_tokens": 334,
+      "total_tokens": 586,
+      "prompt_tokens_details": {
+        "cached_tokens": 192
+      },
+      "prompt_cache_hit_tokens": 192,
+      "prompt_cache_miss_tokens": 60
+    },
+    "costs": {
+      "cacheHitCost": 0.000013440000000000002,
+      "cacheMissCost": 0.000016200000000000004,
+      "outputCost": 0.00036740000000000004,
+      "total": 0.00039704000000000003
+    },
+    "responseTime": 22041
+  },
+  {
+    "test": "comparative-analysis",
+    "timestamp": "2025-03-10T02:17:04.893Z",
+    "position": "r1bq1rk1/pp2ppbp/2np1np1/8/3NP3/2N1BP2/PPPQ2PP/R3KB1R w KQ - 0 1",
+    "query": "What should I focus on in this position?",
+    "results": [
+      {
+        "profile": {
+          "name": "Marco",
+          "level": "beginner",
+          "elo": 800
+        },
+        "answer": "Marco, let's break this position down step by step. At your level, we want to focus on simple, practical plans rather than getting overwhelmed by complex calculations.\n\nKey features of the position:\n1. It's a typical King's Indian Defense structure\n2. Both sides have castled kingside\n3. You have a space advantage in the center\n4. Your pieces are well-developed\n\nYour priorities should be:\n1. **Control the center** - Your e4 pawn is strong, maintain its support\n2. **Develop your rooks** - Connect them by moving your a1 rook to d1\n3. **Look for tactical opportunities** - Especially on the kingside\n\nHere's a simple plan:\n1. Rook to d1 (Rd1) - This connects your rooks and puts pressure on the d-file\n2. Consider pushing f4 later to gain more space on the kingside\n3. Watch for tactics involving your knight on e4\n\nTactical tip: Look at your knight on e4 - it's very strong. If Black ever plays ...f5, you can consider Nf6+! sacrificing the knight to open up Black's king.\n\nRemember:\n- Don't rush - you have a good position\n- Keep your pieces coordinated\n- Watch for hanging pieces (both yours and your opponent's)\n\nWould you like me to explain any of these concepts in more detail? Or would you like to explore a specific line in this position?",
+        "usage": {
+          "prompt_tokens": 245,
+          "completion_tokens": 303,
+          "total_tokens": 548,
+          "prompt_tokens_details": {
+            "cached_tokens": 128
+          },
+          "prompt_cache_hit_tokens": 128,
+          "prompt_cache_miss_tokens": 117
+        },
+        "costs": {
+          "cacheHitCost": 0.00000896,
+          "cacheMissCost": 0.00003159,
+          "outputCost": 0.0003333,
+          "total": 0.00037385
+        }
+      },
+      {
+        "profile": {
+          "name": "Sofia",
+          "level": "intermediate",
+          "elo": 1500
+        },
+        "answer": "This is a typical Sicilian Defense position (specifically a Scheveningen structure) where you have the white pieces. Let's analyze the position and focus on areas that align with your strengths and goals:\n\nKey features:\n1. You have a space advantage with your pawn on e4\n2. Both sides have castled kingside\n3. Black has a solid pawn structure but slightly passive pieces\n\nYour strengths (attacking play) can be utilized here:\n- Consider a kingside attack with f4-f5, using your space advantage\n- Look for tactical opportunities with moves like Qd2-h6\n- Your knight on c3 is well-placed to jump to d5\n\nYour weaknesses (positional understanding) need attention:\n- Be mindful of Black's potential counterplay with ...b5\n- Watch for pawn structure changes if you push f4-f5\n- Consider long-term piece placement (e.g., where to place your rooks)\n\nBest plan:\n1. Prepare f4-f5 push with moves like Qd2 and Rad1\n2. Maintain control of the d5 square\n3. Watch for tactical opportunities on the h6 square\n\nSpecific move suggestion:\nQd2! (threatening Qh6) followed by f4-f5\n\nThis position is excellent for improving your calculation skills - try to visualize the position after f4-f5 and how Black might respond. This will help you reach your 1800 ELO goal by practicing both attacking play and positional understanding in Sicilian structures.",
+        "usage": {
+          "prompt_tokens": 265,
+          "completion_tokens": 311,
+          "total_tokens": 576,
+          "prompt_tokens_details": {
+            "cached_tokens": 192
+          },
+          "prompt_cache_hit_tokens": 192,
+          "prompt_cache_miss_tokens": 73
+        },
+        "costs": {
+          "cacheHitCost": 0.000013440000000000002,
+          "cacheMissCost": 0.00001971,
+          "outputCost": 0.0003421,
+          "total": 0.00037525
+        }
+      },
+      {
+        "profile": {
+          "name": "Alessandro",
+          "level": "advanced",
+          "elo": 2100
+        },
+        "answer": "This is a rich middlegame position from a King's Indian Defense (KID) structure, and it's a great opportunity to work on your weaknesses in complex middlegames while leveraging your calculation skills. Let's break it down:\n\n### Key Features of the Position:\n1. **Pawn Structure**: White has a strong center with pawns on e4 and d4, while Black has a typical KID setup with pawns on d6 and e5.\n2. **Piece Activity**: White's pieces are well-coordinated, with the knight on c3, bishop on e3, and queen on d2. Black's pieces are also active, with knights on f6 and c6, and bishops on g7 and e7.\n3. **King Safety**: Both kings are castled, but Black's kingside is slightly more vulnerable due to the pawn on g6.\n\n### Strategic Goals for White:\n1. **Control the Center**: Maintain your strong pawn center and look for ways to expand it.\n2. **Exploit the Dark Squares**: Black's dark squares (e.g., d5, f5) are potential weaknesses. Consider moves like **Nf3-d2-f1-g3** to target these squares.\n3. **Prepare for a Kingside Attack**: With Black's king on g8 and pawns on g6 and h7, you can consider a pawn storm with **h4-h5** or **f4-f5** to open lines.\n\n### Tactical Ideas:\n1. **Knight Maneuvers**: Consider **Nf3-d2-f1-g3** to reposition your knight to a more active square.\n2. **Pawn Breaks**: Look for **f4-f5** or **d4-d5** to open the position and create weaknesses in Black's camp.\n3. **Piece Sacrifices**: If you see a tactical opportunity, don't hesitate to sacrifice a piece to open lines or create threats. For example, **Nxd5** could be a candidate if it leads to a strong attack.\n\n### Psychological Focus:\n- **Stay Calm**: This is a complex position, so take your time to calculate carefully. Avoid rushing decisions, especially under time pressure.\n- **Trust Your Calculation**: Your strength in calculation will help you navigate this position. Look for concrete lines rather than vague plans.\n\n### Suggested Move:\n**1. Nf3-d2** is a flexible move",
+        "usage": {
+          "prompt_tokens": 273,
+          "completion_tokens": 500,
+          "total_tokens": 773,
+          "prompt_tokens_details": {
+            "cached_tokens": 192
+          },
+          "prompt_cache_hit_tokens": 192,
+          "prompt_cache_miss_tokens": 81
+        },
+        "costs": {
+          "cacheHitCost": 0.000013440000000000002,
+          "cacheMissCost": 0.000021870000000000002,
+          "outputCost": 0.00055,
+          "total": 0.0005853099999999999
+        }
+      }
+    ]
+  }
+]

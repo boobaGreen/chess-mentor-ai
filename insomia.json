@@ -1,0 +1,116 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-03-09T22:40:00.000Z",
+  "__export_source": "insomnia.desktop.app:v10.3.1",
+  "resources": [
+    {
+      "_id": "wrk_chess_mentor",
+      "_type": "workspace",
+      "parentId": null,
+      "modified": 1709940000000,
+      "created": 1709940000000,
+      "name": "Chess Mentor API",
+      "description": "",
+      "scope": "collection"
+    },
+    {
+      "_id": "env_base",
+      "_type": "environment",
+      "parentId": "wrk_chess_mentor",
+      "modified": 1709940000000,
+      "created": 1709940000000,
+      "name": "Base Environment",
+      "data": {
+        "base_url": "http://localhost:3000",
+        "user": {
+          "id": "test-user-1",
+          "email": "test@example.com",
+          "name": "Test User"
+        }
+      }
+    },
+    {
+      "_id": "req_health",
+      "_type": "request",
+      "parentId": "wrk_chess_mentor",
+      "modified": 1709940000000,
+      "created": 1709940000000,
+      "url": "{{ _.base_url }}/health",
+      "name": "Health Check",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {}
+    },
+    {
+      "_id": "req_recommendations",
+      "_type": "request",
+      "parentId": "wrk_chess_mentor",
+      "modified": 1709940000000,
+      "created": 1709940000000,
+      "url": "{{ _.base_url }}/api/tutor/recommendations",
+      "name": "Get Recommendations",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "X-User-Id",
+          "value": "{{ _.user.id }}"
+        }
+      ],
+      "authentication": {}
+    },
+    {
+      "_id": "req_activity",
+      "_type": "request",
+      "parentId": "wrk_chess_mentor",
+      "modified": 1709940000000,
+      "created": 1709940000000,
+      "url": "{{ _.base_url }}/api/tutor/activity",
+      "name": "Log Activity",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\"type\":\"puzzle\",\"result\":{\"success\":true,\"timeSpent\":45,\"score\":100,\"difficulty\":3,\"opening\":\"Sicilian Defense\",\"opponent\":\"bot\",\"botLevel\":5,\"puzzleId\":\"puz_123\"},\"concepts\":[\"pin tactics\",\"mate pattern\",\"discovered attack\"]}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "X-User-Id",
+          "value": "{{ _.user.id }}"
+        }
+      ],
+      "authentication": {}
+    },
+    {
+      "_id": "req_history",
+      "_type": "request",
+      "parentId": "wrk_chess_mentor",
+      "modified": 1709940000000,
+      "created": 1709940000000,
+      "url": "{{ _.base_url }}/api/tutor/history",
+      "name": "Get History",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "X-User-Id",
+          "value": "{{ _.user.id }}"
+        }
+      ],
+      "authentication": {}
+    }
+  ]
+}

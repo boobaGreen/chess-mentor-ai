@@ -4,6 +4,11 @@ https://stockfishchess.org/download/
 "react-chessboard": "^4.7.2",
 
 
-- aggiunegre training sectuion dove ci sposto puzzle ed aggiungiamo i lesercizio per coordinate
+
 - aggiunegre possibilita' di muover i pezzi anche con 2 click partenza / destinazione non solo trascinandoli come ora
+
 - spostare logica stockfish su be ora e' su fe
+
+- sezione storica/aneddoti
+- sezione psicologica -sconfitte vittore - elo - costanza - ecc ecc variazione aprtura -studio avversario ecc 
+

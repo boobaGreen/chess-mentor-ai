@@ -1,0 +1,103 @@
+[
+  {
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "What should I focus on learning first as a beginner?",
+    "answer": "Marco, based on your level and recent performance, here's a focused learning plan to help you improve:\n\n1. **Basic Tactics (Priority #1)**:\n   - Start with simple 1-move and 2-move tactics\n   - Focus on patterns: forks, pins, skewers, discovered attacks\n   - Do 10-15 puzzles daily (use apps like Chess.com or Lichess)\n   - Look for hanging pieces in every position\n\n2. **Opening Principles**:\n   - Control the center (e4, d4, e5, d5 squares)\n   - Develop your knights and bishops early\n   - Castle quickly for king safety\n   - Don't move the same piece twice in the opening\n\n3. **Endgame Basics**:\n   - Learn the \"King + Queen vs King\" mate\n   - Practice \"King + Rook vs King\" mate\n   - Understand the opposition in king and pawn endgames\n\n4. **Time Management**:\n   - Spend at least 30 seconds on each move\n   - Check for threats before making your move\n   - Use the \"checks, captures, attacks\" thinking routine\n\n5. **Game Analysis**:\n   - Review every game you play\n   - Look for where you lost material\n   - Identify 1 improvement point per game\n\nPractice Plan:\n- 30 mins tactics daily\n- 15 mins endgame practice\n- 2-3 slow games per week (15+10 time control)\n- Analyze all games with computer assistance\n\nRemember: At your level, most games are decided by simple tactics and hanging pieces. Focus on not giving away material and taking free pieces when your opponent makes mistakes.\n\nWould you like me to suggest specific training resources or explain any of these concepts in more detail?",
+    "usage": {
+      "prompt_tokens": 195,
+      "completion_tokens": 369,
+      "total_tokens": 564,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 195
+    },
+    "costs": {
+      "cacheHitCost": 0,
+      "cacheMissCost": 0.000052650000000000006,
+      "outputCost": 0.00040590000000000005,
+      "total": 0.00045855000000000006
+    }
+  },
+  {
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "How can I improve my tactical vision?",
+    "answer": "Hi Marco! Great to see your enthusiasm for improving. Let's work on your tactical vision step by step. At your level, this is one of the most important skills to develop.\n\nHere's a focused plan tailored to your current level:\n\n1. **Daily Puzzle Routine** (15-20 minutes)\n   - Start with 3-5 easy puzzles per day (1000-1200 rating)\n   - Focus on these patterns:\n     * Forks (especially knight forks)\n     * Pins (look for bishops/rooks pinning pieces)\n     * Discovered attacks\n   - Use lichess.org or chesstempo.com (set to easy mode)\n\n2. **Game Analysis** (after every game)\n   - Look for 3 tactical moments in your games:\n     * Where you could have won material\n     * Where you lost material\n     * Where you missed a checkmate\n   - Use the analysis board to explore these positions\n\n3. **Pattern Recognition Drills**\n   - Study these common tactical themes:\n     * Back rank mates\n     * Smothered mates\n     * Basic pawn promotion tactics\n   - Use the \"Woodpecker Method\" - solve the same set of easy puzzles repeatedly until you recognize them instantly\n\n4. **Practical Tips During Games**\n   - Before every move, ask:\n     * \"Can I take anything?\"\n     * \"Is any of my pieces under attack?\"\n     * \"Can I create a threat?\"\n   - Spend extra time looking for knight moves - they're tricky at your level\n\n5. **Recommended Resources**\n   - Book: \"Chess Tactics for Champions\" by Susan Polgar (start with the easiest exercises)\n   - Lichess Practice section (tactics category)\n   - Chess.com's \"Tactics Trainer\" (beginner level)\n\nRemember, improving tactical vision is like building muscle - it takes consistent practice. Start with simple patterns and gradually increase difficulty as your success rate improves.\n\nWould you like me to show you a specific example of a tactical pattern you should be looking for in your games?",
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 428,
+      "total_tokens": 620,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 64
+    },
+    "costs": {
+      "cacheHitCost": 0.00000896,
+      "cacheMissCost": 0.00001728,
+      "outputCost": 0.0004708,
+      "total": 0.00049704
+    }
+  },
+  {
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "I always lose in endgames, what should I do?",
+    "answer": "Marco, endgames are a common challenge for beginners, but with focused practice, you can improve significantly. Here's a tailored plan to help you:\n\n### 1. **Learn Basic Endgame Principles**\n   - **King Activity**: In endgames, your king becomes a powerful piece. Always centralize it to support your pawns and attack your opponent's.\n   - **Pawn Promotion**: Focus on pushing your pawns to promotion while stopping your opponent's pawns.\n   - **Opposition**: Learn the concept of opposition in king-and-pawn endgames. This is key to winning or drawing these positions.\n\n### 2. **Practice Key Endgame Scenarios**\n   Start with these fundamental endgames:\n   - **King and Pawn vs. King**: Learn how to promote a pawn with your king's help.\n   - **Rook Endgames**: Practice \"Lucena Position\" (how to win with a rook and pawn) and \"Philidor Position\" (how to draw with a rook against a rook and pawn).\n   - **Queen vs. Pawn**: Understand how to stop a pawn from promoting when you have a queen.\n\n   Use free tools like [Lichess Practice](https://lichess.org/practice) or Chess.com's endgame drills to practice these scenarios.\n\n### 3. **Simplify the Position**\n   - In the middlegame, aim to trade pieces (especially queens) if you're ahead in material. This reduces complexity and makes the endgame easier to handle.\n   - Avoid unnecessary pawn moves that create weaknesses.\n\n### 4. **Calculate Carefully**\n   - Endgames require precise calculation. Take your time to visualize the moves and outcomes.\n   - Ask yourself: \"Can my opponent stop my pawn? Can I stop theirs?\"\n\n### 5. **Study Endgame Patterns**\n   - Look for patterns like \"zugzwang\" (forcing your opponent to make a bad move) and \"shouldering\" (using your king to block the opponent's king).\n   - Solve simple endgame puzzles to build your intuition.\n\n### 6. **Play Endgame-Specific Games**\n   - On Lichess or Chess.com, play \"endgame-only\" games or set up positions to practice. Start with king-and-pawn endgames, then add rooks, etc.\n\n### 7. **Review Your Games**\n   - After each game, analyze your endgame mistakes. Ask: \"Where",
+    "usage": {
+      "prompt_tokens": 196,
+      "completion_tokens": 500,
+      "total_tokens": 696,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 68
+    },
+    "costs": {
+      "cacheHitCost": 0.00000896,
+      "cacheMissCost": 0.00001836,
+      "outputCost": 0.00055,
+      "total": 0.0005773200000000001
+    }
+  },
+  {
+    "profile": {
+      "name": "Marco",
+      "level": "beginner",
+      "elo": 800
+    },
+    "query": "What should I do in this position?",
+    "position": "r4rk1/pp2ppbp/2p3p1/q7/3P1B2/P1Q5/1P3PPP/R3R1K1 w - - 0 1",
+    "answer": "Let's break this down step by step, Marco. First, let's assess the position:\n\n**Key Features:**\n1. You're White, with a slight material advantage (bishop vs. knight)\n2. Your pieces are active - bishop on f4, queen on c3, rooks connected\n3. Black has a queen on a5 that's a bit exposed\n4. Black's king is still in the center\n\n**Your Strengths to Use:**\n- Your pattern recognition can help spot tactical opportunities\n- Your enthusiasm will help you stay focused on finding the best moves\n\n**What to Do:**\n1. **Look for Tactics:** Your bishop on f4",
+    "usage": {
+      "prompt_tokens": 241,
+      "completion_tokens": 139,
+      "total_tokens": 380,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 113
+    },
+    "costs": {
+      "cacheHitCost": 0.00000896,
+      "cacheMissCost": 0.00003051,
+      "outputCost": 0.0001529,
+      "total": 0.00019237
+    }
+  }
+]
