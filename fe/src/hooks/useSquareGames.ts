@@ -109,7 +109,7 @@ export const useSquaresGame = (
       toast.toast({
         title: "Congratulations!",
         description: `Perfect score! Time: ${finalTime}s`,
-        variant: "success",
+        variant: "default",
       });
     } catch (error) {
       console.error("Error saving score:", error);

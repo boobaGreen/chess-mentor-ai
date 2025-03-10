@@ -361,5 +361,81 @@
       "total": 0.0008912000000000001
     },
     "responseTime": 83408
+  },
+  {
+    "test": "comparative-analysis",
+    "timestamp": "2025-03-10T02:52:34.808Z",
+    "theme": "the immortal game",
+    "results": [
+      {
+        "profile": {
+          "name": "Marco",
+          "level": "beginner",
+          "elo": 800
+        },
+        "content": "ERRORE API: Impossibile ottenere una risposta dopo multipli tentativi.",
+        "usage": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 0
+        },
+        "costs": {
+          "cacheHitCost": 0,
+          "cacheMissCost": 0,
+          "outputCost": 0,
+          "total": 0
+        }
+      },
+      {
+        "profile": {
+          "name": "Sofia",
+          "level": "intermediate",
+          "elo": 1500
+        },
+        "content": "### The Immortal Game: Anderssen vs. Kieseritzky (1851)\n\n**Context and Players:**\nThe Immortal Game is one of the most famous chess games ever played, a dazzling display of attacking chess that has inspired generations of players. It was played in 1851 between Adolf Anderssen, a German master considered one of the strongest players of his time, and Lionel Kieseritzky, a French player known for his aggressive style. The game was played as an informal match during the London 1851 tournament, the first international chess tournament.\n\nAnderssen, known for his imaginative and sacrificial play, was a pioneer of romantic chess, where bold attacks and sacrifices were valued over cautious, positional play. This game perfectly encapsulates that spirit.\n\n---\n\n### The Game: Anderssen vs. Kieseritzky (1851)\n\n**1. e4 e5 2. f4**\n\nAnderssen opens with the King's Gambit, a bold and aggressive opening that sacrifices a pawn for rapid development and attacking chances. This was a favorite of romantic-era players, and it sets the tone for the game.\n\n**2... exf4 3. Bc4 Qh4+ 4. Kf1 b5?!**\n\nKieseritzky accepts the gambit and immediately goes for counterplay with 3...Qh4+, a sharp but risky move. Black's 4...b5 is an attempt to disrupt White's development, but it weakens Black's position. Anderssen, true to his style, ignores the threat and continues his attack.\n\n**5. Bxb5 Nf6 6. Nf3 Qh6 7. d3 Nh5 8. Nh4 Qg5 9. Nf5 c6 10. g4 Nf6 11. Rg1!**\n\nHere, Anderssen sacrifices another pawn with 11. Rg1, aiming to open the g-file for his rook. This is a classic example of romantic chess: material is secondary to initiative and attack.\n\n**11... cxb5 12. h4 Qg6 13. h5 Qg5 14. Qf3 Ng8 15. Bxf4 Qf6 16. Nc3 Bc5 17. Nd5 Qxb2**\n\nBlack's queen is now deep in White's territory, but Anderssen is unfazed. He continues to build his attack, ignoring the material deficit.\n\n**18. Bd6! Bxg1?**\n\nThis is a critical moment. Kieseritzky captures the rook with 18...Bxg1, but this allows Anderssen to unleash a stunning combination. Instead, 18...Qxa1 would have been safer, though Black's position is already difficult.\n\n**19. e5! Qxa1+ 20. Ke2**\n\nAnderssen's king moves into the open, but Black's pieces are too disorganized to exploit it. White's attack is now unstoppable.\n\n**20... Na6 21. Nxg7+ Kd8 22. Qf6+! Nxf6 23. Be7#**\n\nThe final position is a masterpiece. Anderssen delivers checkmate with his bishop, having sacrificed his queen and rook to create a mating net. The game ends with a beautiful and unexpected checkmate.\n\n---\n\n### Key Strategic Concepts:\n\n1. **Initiative over Material:** Anderssen demonstrates that the initiative and attacking chances can outweigh material losses. This is a key concept in romantic chess and remains relevant in modern attacking play.\n\n2. **Open Files and Diagonals:** The game highlights the importance of open files (the g-file) and diagonals (the long diagonal for the bishop) in launching attacks.\n\n3. **King Safety:** Kieseritzky's king becomes vulnerable due to his lack of development and piece coordination. This is a critical lesson for intermediate players: always prioritize king safety.\n\n---\n\n### Critical Positions:\n\n1. **After 18. Bd6!**\n   - White's bishop pins the black knight, creating threats on the long diagonal. Black's capture of the rook (18...Bxg1) is a mistake, as it allows White to unleash a devastating attack.\n\n2. **After 22. Qf6+!**\n   - Anderssen sacrifices his queen to clear the path for his bishop. This is a brilliant tactical motif that intermediate players should study and appreciate.\n\n---\n\n### Notable Quotes and Anecdotes:\n\n- Anderssen once said, \"To play for a draw, at any rate with White, is to some degree a crime against chess.\" This game perfectly embodies his philosophy.\n- The game was dubbed \"The Immortal Game\" by Ernst Falkbeer, a contemporary chess master, due to its brilliance and enduring legacy.\n\n---\n\n### Key Lessons for",
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 1000,
+          "total_tokens": 1303,
+          "prompt_tokens_details": {
+            "cached_tokens": 192
+          },
+          "prompt_cache_hit_tokens": 192,
+          "prompt_cache_miss_tokens": 111
+        },
+        "costs": {
+          "cacheHitCost": 0.000013440000000000002,
+          "cacheMissCost": 0.000029970000000000003,
+          "outputCost": 0.0011,
+          "total": 0.00114341
+        }
+      },
+      {
+        "profile": {
+          "name": "Alessandro",
+          "level": "advanced",
+          "elo": 2100
+        },
+        "content": "### The Immortal Game: Anderssen vs. Kieseritzky (1851)\n\n#### Game Context and Players\nThe Immortal Game, played between Adolf Anderssen and Lionel Kieseritzky in 1851, is one of the most celebrated games in chess history. Anderssen, a German mathematician, was one of the strongest players of his time, known for his daring attacking style. Kieseritzky, a French player, was also a formidable opponent, famous for his sharp tactical play. This game was played during a break in the London 1851 tournament, the first international chess tournament.\n\n#### Key Strategic Concepts\n1. **King Safety**: Both players prioritize attack over defense, leading to a dramatic and instructive game.\n2. **Piece Activity**: Anderssen sacrifices material to keep his pieces active and coordinate an attack.\n3. **Initiative**: Maintaining the initiative is crucial, even at the cost of material.\n4. **Open Files and Diagonals**: Control of open lines is a recurring theme, especially the e-file and the long diagonal.\n\n#### Critical Positions with Diagrams\n\n**Position after 11...Qf6**\n```\n8 | r |   | b |   |   |   | k |   \n7 |   |   | p |   |   | p | p | p\n6 |   |   | n |   |   | q |   |   \n5 |   |   |   |   | p |   |   |   \n4 |   |   |   | P |   |   |   |   \n3 |   |   |   |   |   | N |   |   \n2 | P | P | P |   |   | P | P | P\n1 | R |   | B | Q |   | R | K |   \n    a   b   c   d   e   f   g   h\n```\nAnderssen has just played 11. Nc3, developing his knight and preparing to castle. Kieseritzky responds with 11...Qf6, attacking the pawn on e5. Anderssen's next move, 12. Nxe5, is a bold sacrifice to open lines for his pieces.\n\n**Position after 16...Be6**\n```\n8 | r |   |   |   |   |   | k |   \n7 |   |   | p |   |   | p | p | p\n6 |   |   |   |   | b | q |   |   \n5 |   |   |   |   | p |   |   |   \n4 |   |   |   | P |   |   |   |   \n3 |   |   |   |   |   | N |   |   \n2 | P | P | P |   |   | P | P | P\n1 | R |   | B | Q |   | R | K |   \n    a   b   c   d   e   f   g   h\n```\nAnderssen has just played 16. Qg4, threatening mate on g7. Kieseritzky defends with 16...Be6, but Anderssen continues his attack with 17. Bxe6, sacrificing another piece to keep the initiative.\n\n**Position after 20...Kxe7**\n```\n8 | r |   |   |   |   |   |   |   \n7 |   |   | p |   | k | p | p | p\n6 |   |   |   |   |   | q |   |   \n5 |   |   |   |   | p |   |   |   \n4 |   |   |   | P |   |   |   |   \n3 |   |   |   |   |   | N |   |   \n2 | P | P | P |   |   | P | P | P\n1 | R |   | B | Q |   | R | K |   \n    a   b   c   d   e   f   g   h\n```\nAnderssen has just played 20. Rxe7+, sacrificing his rook. Kieseritzky captures with 20...Kxe7, but Anderssen's attack is relentless. He continues with 21. Qxd7+, forcing the black king to e8.\n\n#### Notable Quotes or Anecdotes\n- Anderssen once said, \"I have always been of the opinion that the true way to play chess is to attack.\" This game is a perfect example of his philosophy.\n- The game was dubbed \"The Immortal Game\" by Ernst Falkbeer in 1855, highlighting its timeless beauty and instructional value.\n\n#### Key Lessons\n1. **Initiative Over Material**: Anderssen demonstrates that maintaining the initiative can be more valuable",
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 1000,
+          "total_tokens": 1302,
+          "prompt_tokens_details": {
+            "cached_tokens": 256
+          },
+          "prompt_cache_hit_tokens": 256,
+          "prompt_cache_miss_tokens": 46
+        },
+        "costs": {
+          "cacheHitCost": 0.00001792,
+          "cacheMissCost": 0.000012420000000000001,
+          "outputCost": 0.0011,
+          "total": 0.0011303399999999999
+        }
+      }
+    ]
   }
 ]
